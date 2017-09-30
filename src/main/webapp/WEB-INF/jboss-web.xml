@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+   <resource-ref>
+      <!--<res-ref-name>jdbc/MySQLDS</res-ref-name>-->
+      <res-ref-name>jdbc/MysqlDS</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+      <jndi-name>java:jboss/datasources/MySQLDS</jndi-name>
+<!-- 	  <jndi-name>java:jboss/datasources/MysqlDS</jndi-name> -->
+   </resource-ref>	
+</jboss-web>
