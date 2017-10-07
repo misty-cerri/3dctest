@@ -14,7 +14,7 @@
 	<!-- JDNI name for EntityManagerFactory is defined in src/main/resources/META-INF/persistence.xml -->
 	<!-- <jee:jndi-lookup jndi-name="java:jboss/spring-quickstart/persistence" id="entityManagerFactory"
                      expected-type="javax.persistence.EntityManagerFactory" /> -->
-	<jee:jndi-lookup jndi-name="java:jboss/climbing/persistence" id="entityManagerFactory"
+	<jee:jndi-lookup jndi-name="java:jboss/datasources/gymdb_mysql" id="entityManagerFactory"
                      expected-type="javax.persistence.EntityManagerFactory" />
 
 	<bean id="entityManager" class="org.springframework.orm.jpa.support.SharedEntityManagerBean">
