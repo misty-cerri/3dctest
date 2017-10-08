@@ -29,7 +29,7 @@
   	<task:annotation-driven scheduler="scheduler" executor="executor"/> -->
 	<task:annotation-driven/>
 	
-	<util:properties id="applicationProps" location="classpath:${PLATFORM}-3dc.properties" />
+	<util:properties id="applicationProps" location="classpath:prod-3dc.properties" />
     <context:property-placeholder properties-ref="applicationProps" />
 
 </beans>
